@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "author": "Blessing Ajiboye",
+  "author": "Gayathri Rajagopal",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.28.4",
@@ -12,6 +12,7 @@
     "nodemon": "^3.1.10"
   },
   "scripts": {
+    "test": "vitest",
     "dev": "concurrently 'vite' \"nodemon server.js\"",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
